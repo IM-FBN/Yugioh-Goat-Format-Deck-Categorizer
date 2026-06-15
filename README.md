@@ -105,19 +105,3 @@ best_params = {
 | `classification_report.txt` | Precision / recall / F1 per class + best hyperparameters |
 | `confusion_matrix.png` / `.csv` | Confusion matrix across all 35 classes |
 | `partial_deck_accuracy.png` / `.csv` | Accuracy as a function of deck fraction |
-
-## Limitations
-
-- **Rare archetypes with very little data** are sometimes not recognized at all (F1 = 0.00 for *Drain Beat*, *Monarch*, *Tomato Monarch* — only 5 samples each). More training data is the primary fix here.
-- The gap between CV accuracy (99.88%) and test accuracy (91%) is worth watching — consider increasing regularization or reviewing the data splits.
-- Decks sitting on the boundary between two related archetypes (e.g. the Chaos variants) are inherently ambiguous; some amount of confusion is unavoidable.
-
-## Next steps
-
-- Collect more training data for underrepresented archetypes
-- Test regularization (`reg_alpha`, `reg_lambda`) against the overfitting
-- Surface prediction confidence scores in the UI to flag ambiguous decks
-
----
-
-*GOAT-format tooling*
