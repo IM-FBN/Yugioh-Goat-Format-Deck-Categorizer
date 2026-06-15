@@ -1,4 +1,4 @@
-# GOAT Deck Classifier 🐐
+# supervised GOAT Deck Classifier 🐐
 
 XGBoost model for automatically categorizing Yu-Gi-Oh! **GOAT-format** decks into archetypes.
 
