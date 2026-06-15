@@ -1,0 +1,44 @@
+Best Parameters: {'subsample': 0.7, 'reg_lambda': 0, 'reg_alpha': 0, 'min_child_weight': 1, 'max_depth': 7, 'learning_rate': 0.1, 'gamma': 0, 'colsample_bytree': 0.7}
+Best CV-Accuracy: 0.9988
+
+                        precision    recall  f1-score   support
+
+          Bazoo Return       0.83      1.00      0.91         5
+              Cat Burn       0.88      0.93      0.90        15
+               Cat OTK       1.00      0.60      0.75        10
+         Chaos Control       0.84      0.86      0.85       175
+       Chaos Recruiter       0.78      0.70      0.74        10
+          Chaos Return       0.90      0.80      0.85        70
+           Chaos Turbo       0.96      0.97      0.96       710
+         Chaos Warrior       0.95      0.64      0.76        55
+   Chaos Warrior Turbo       0.83      0.80      0.82        25
+Dimension Fusion Turbo       1.00      0.70      0.82        10
+            Drain Beat       0.00      0.00      0.00         5
+            Drain Burn       1.00      0.30      0.46        10
+            Earth Beat       0.82      0.93      0.88        30
+         Economics FTK       1.00      0.80      0.89         5
+          Flip Control       1.00      0.90      0.95        10
+          Flip Warrior       0.83      0.69      0.75        35
+             Gearfried       1.00      0.70      0.82        10
+          Goat Control       0.92      0.94      0.93       135
+           Gravekeeper       1.00      0.80      0.89         5
+          Gumo Warrior       0.75      0.90      0.82        10
+           Library FTK       1.00      1.00      1.00         5
+           Mataza Rush       0.80      0.80      0.80         5
+               Monarch       0.00      0.00      0.00         5
+            Panda Burn       0.96      1.00      0.98        80
+  Reasoning Gate Turbo       1.00      0.89      0.94        45
+          Relinquished       1.00      0.87      0.93        15
+                  SWAG       1.00      0.80      0.89        10
+          Soul Control       0.75      0.60      0.67         5
+            Stall Burn       1.00      0.80      0.89         5
+      Stein Gate Turbo       0.75      1.00      0.86        15
+         Stein Monarch       0.67      0.80      0.73         5
+            Tiger Stun       0.73      0.80      0.76        10
+        Tomato Monarch       0.00      0.00      0.00         5
+               Warrior       0.87      0.98      0.92       285
+                Zombie       0.72      0.87      0.79        15
+
+              accuracy                           0.91      1850
+             macro avg       0.82      0.75      0.77      1850
+          weighted avg       0.91      0.91      0.90      1850
